@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         显示B站视频av号、BV号、弹幕CID
 // @namespace    http://s.xmcp.ml/
-// @version      0.1
-// @description  不知道B站在搞什么飞机
+// @version      0.1.1
+// @description  B站强推bvid，不知道在搞什么飞机
 // @author       xmcp
 // @match        https://www.bilibili.com/video/*
 // @grant        none
