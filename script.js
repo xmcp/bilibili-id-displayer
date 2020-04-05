@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         显示B站视频av号、BV号、弹幕CID
 // @namespace    http://s.xmcp.ml/
-// @version      0.1.1
+// @version      0.2
 // @description  B站强推bvid，不知道在搞什么飞机
 // @author       xmcp
 // @match        https://www.bilibili.com/video/*
@@ -51,6 +51,8 @@
             overlay.style.left=pos.x+'px';
         }
         repos();
+        setTimeout(repos,100);
+        setTimeout(repos,500);
         window.addEventListener('resize',()=>{
             repos();
             // if something is happening async
